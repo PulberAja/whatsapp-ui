@@ -1,3 +1,7 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -8,12 +12,9 @@ body{
 }
 .right{
     height : 100vh;
-    background: #F7F9FA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color : #929fa6;
-    border-bottom: #07bc4c solid 5px;
+    background: url("../img/wtasapp-background.jpg");
+    display : flex;
+    flex-direction: column;
 }
 .icons{
     height : 60px;
@@ -84,6 +85,36 @@ body{
 hr{
     margin: 30px 0;
 }
+.user-info-right{
+    padding : 0 20px;
+}
+.msg{
+    padding : 10px 20px;
+    border-radius: 10px;
+}
+.my-chat{
+    display: flex;
+    justify-content: flex-end;
+}
+.chat-item-left{
+    background: #FFFFFF;
+}
+.chat-item-right{
+    background: #DCF8C6;
+}
+.enter-chat{
+    margin: auto 0 0 0;
+}
+.col-8{
+    padding-right : 0px;
+    padding-left : 0px;
+}
+.enter-chat{
+    justify-content : flex-start;
+}
+.enter-chat .input-box{
+    flex-grow: 3;
+}
 .chat-window{
-    margin : 50px 100px 0 100px;
+    padding : 20px 50px;
 }

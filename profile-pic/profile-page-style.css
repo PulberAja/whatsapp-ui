@@ -87,3 +87,52 @@ hr{
 .chat-window{
     margin : 50px 100px 0 100px;
 }
+.profile-section-top{
+    height: 110px;
+    background: #00BFA5;
+    display: flex;
+    align-items: flex-end;
+}
+.profile-section-top-text{
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.profile-section-top-text span{
+    margin-left : 20px;
+}
+.profile-section-pic{
+    height: 254px;
+    background: #F7F7F7;
+}
+.profile-section-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-section-info{
+    height: 92px;
+}
+.container-group{
+    margin : 10px 0 10px 40px ;
+    height: 100%;
+    width: 100%;
+    color : #00BFA5;
+}
+.push-down{
+    width: 100%;
+    color : #000;
+    font-size: 1.1em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-section-warning{
+    height: 83px;
+    background: #F7F7F7;
+}
+.profile-section-warning span{
+    margin: 10px 30px;
+    color : #929fa6;
+}
